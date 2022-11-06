@@ -1,0 +1,193 @@
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  font-family: Helvetica, sans-serif;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.home-button-container {
+  padding-top: 10vh;
+  text-align: center; 
+}
+
+.home-button {
+  
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+  height: 70px;
+  background-color: black;
+  color: #ffffff;
+  /* border: none; */
+  border-radius: 12px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  filter: drop-shadow(2px 2px 3px rgb(185, 185, 185));
+  
+  
+}
+.screenshots {
+  display: flex;
+  align-items: center;
+  float: right;
+  padding-right: 22vh;
+  
+}
+.screenshots img {
+  float: right;
+  height: 50vh;
+  max-width: 100%;
+  margin-left: 2vw;
+  filter: drop-shadow(2px 2px 4px rgb(129, 129, 129));
+
+}
+
+.screenshots p {
+  width: 30vw;
+  text-align: right;
+  padding-right: 5vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.screenshots-left {
+  display: flex;
+  align-items: center;
+  float: left;
+  padding-left: 22vh;
+  
+}
+.screenshots-left img {
+  float: left;
+  height: 50vh;
+  max-width: 100%;
+  margin-right: 2vw;
+  filter: drop-shadow(2px 2px 4px rgb(129, 129, 129));
+
+}
+
+.screenshots-left p {
+  width: 30vw;
+  text-align: left;
+  padding-left: 5vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+#headline-home {
+  font-family: Helvetica, sans-serif;
+  font-size: 70px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 15vh;
+}
+
+#about-text-home {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: lighter;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-top: 5vh;
+  
+}
+
+#top-text {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: lighter;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+
+#figma-div {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top:10vh;
+}
+
+#application-topnav {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  padding-bottom: 15vh;
+}
+
+
+#application-topnav a {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  margin-right: 40px;
+  color: black;
+  filter: drop-shadow(2px 2px 16px rgb(185, 185, 185));
+
+}
+
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
