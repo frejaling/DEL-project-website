@@ -293,8 +293,13 @@
 }
 
 @font-face {
-font-family: 'Signifier';
-src: url('fonts/test-signifier-font/TestSignifier-Regular.otf');  
+  font-family: 'Signifier';
+  src: url('fonts/test-signifier-font/TestSignifier-Regular.otf');  
+}
+
+@font-face {
+  font-family: 'Anson';
+  src: url('fonts/Anson-Regular.otf');  
 }
 
 
