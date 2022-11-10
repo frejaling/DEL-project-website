@@ -38,8 +38,28 @@
 }
 
 .home-button-container {
-  padding-top: 10vh;
+  padding-top: 13vh;
   text-align: center; 
+}
+
+.topnav-smallcaps {
+  display: flex;
+  /* background-color: white; */
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  padding-top: 3vh;
+  
+  
+
+}
+
+.topnav-smallcaps a {
+  margin-right: 40px;
+  color: black;
+  
 }
 
 .home-button {
@@ -186,6 +206,7 @@
   justify-content: center;
   align-items: center;
   padding-top: 1vh;
+  padding-bottom: 1vh;
 }
 
 .top-logo img {
@@ -204,24 +225,25 @@
 
 
 #headline-home {
-  font-family: Helvetica, sans-serif;
-  font-size: 70px;
+  /* font-family: Helvetica, sans-serif; */
+  font-family: "Test Signifier", serif;
+  font-size: 80px;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-weight: bold;
+  /* font-weight: lighter; */
   padding-top: 15vh;
 }
 
 #about-text-home {
-  font-family: Helvetica, sans-serif;
-  font-size: 20px;
+  font-family: "Anson";
+  font-size: 40px;
   align-items: center;
   justify-content: center;
   text-align: center;
   font-weight: lighter;
-  padding-left: 20vw;
-  padding-right: 20vw;
+  /* padding-left: 20vw;
+  padding-right: 20vw; */
   padding-top: 5vh;
   
 }
