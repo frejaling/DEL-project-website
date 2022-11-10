@@ -226,7 +226,7 @@
 
 #headline-home {
   /* font-family: Helvetica, sans-serif; */
-  font-family: "Test Signifier", serif;
+  font-family: "Signifier", serif;
   font-size: 80px;
   align-items: center;
   justify-content: center;
@@ -290,6 +290,11 @@
   text-align: center;
   padding-top: 15vh;
   padding-bottom: 30vh;
+}
+
+@font-face {
+font-family: 'Signifier';
+src: url('fonts/test-signifier-font/TestSignifier-Regular.otf');  
 }
 
 
