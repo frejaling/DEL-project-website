@@ -181,6 +181,17 @@
   font-weight: lighter;
 }
 
+.top-logo {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1vh;
+}
+
+.top-logo img {
+  width: 10vw;
+}
+
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
