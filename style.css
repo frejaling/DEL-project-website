@@ -58,7 +58,7 @@
   font-size: 18px;
   border: none;
   cursor: pointer;
-  filter: drop-shadow(2px 2px 3px rgb(185, 185, 185));
+  filter: drop-shadow(2px 2px 3px rgb(214, 214, 214));
   
   
 }
@@ -67,7 +67,8 @@
   align-items: center;
   float: right;
   padding-right: 22vh;
-  
+  justify-content: center;
+  padding-top: 5vh;
 }
 .screenshots img {
   float: right;
@@ -110,6 +111,17 @@
   font-weight: lighter;
 }
 
+.home-body {
+  background-color: #e1e0e0;
+}
+
+.blue-div {
+  background-color: rgb(0, 61, 216);
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
@@ -118,6 +130,8 @@
   align-items: center;
   justify-content: center;
 }
+
+
 
 #headline-home {
   font-family: Helvetica, sans-serif;
@@ -178,6 +192,12 @@
   color: black;
   filter: drop-shadow(2px 2px 16px rgb(185, 185, 185));
 
+}
+
+#video-div {
+  text-align: center;
+  padding-top: 15vh;
+  padding-bottom: 30vh;
 }
 
 
