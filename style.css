@@ -328,6 +328,17 @@
   padding-bottom: 30vh;
 }
 
+#github-div {
+  font-family: "Signifier", Helvetica, sans-serif;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 20px;
+}
+#github-div a {
+  color: black;
+  
+}
+
 @font-face {
   font-family: 'Signifier';
   src: url('fonts/test-signifier-font/TestSignifier-Regular.otf');  
