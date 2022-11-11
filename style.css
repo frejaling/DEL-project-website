@@ -221,7 +221,7 @@
 }
 
 .top-logo img {
-  width: 10vw;
+  width: 7vw;
 }
 
 .brk {
@@ -279,8 +279,8 @@
 }
 
 #top-text {
-  font-family: Helvetica, sans-serif;
-  font-size: 20px;
+  font-family: "Signifier", "Anson", Helvetica, sans-serif;
+  font-size: 30px;
   align-items: center;
   justify-content: center;
   text-align: center;
