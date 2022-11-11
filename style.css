@@ -51,6 +51,7 @@
   font-family: Helvetica, sans-serif;
   font-weight: lighter;
   padding-top: 3vh;
+  font-size: 20px;
   
   
 
@@ -316,7 +317,7 @@
 
 }
 
-#application-topnav a:link { text-decoration: none; }
+#application-topnav a:link { text-decoration: underline; }
 #application-topnav a:visited { text-decoration: none; }
 #application-topnav a:hover { text-decoration: none; }
 #application-topnav a:active { text-decoration: underline; }
