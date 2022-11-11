@@ -61,6 +61,17 @@
   color: black;
   
 }
+.topnav-smallcaps a:link {
+  text-decoration: none;
+}
+
+.topnav-smallcaps a:hover {
+  text-decoration: red;
+}
+
+.topnav-smallcaps a:active {
+  text-decoration: underline;
+}
 
 .home-button {
   
@@ -73,7 +84,7 @@
   color: #ffffff;
   /* border: none; */
   border-radius: 12px;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Anson', sans-serif;
   font-weight: bold;
   font-size: 18px;
   border: none;
@@ -285,6 +296,11 @@
   filter: drop-shadow(2px 2px 16px rgb(185, 185, 185));
 
 }
+
+#application-topnav a:link { text-decoration: none; }
+#application-topnav a:visited { text-decoration: none; }
+#application-topnav a:hover { text-decoration: none; }
+#application-topnav a:active { text-decoration: underline; }
 
 #video-div {
   text-align: center;
