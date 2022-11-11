@@ -259,6 +259,19 @@
   
 }
 
+#about-text-video {
+  font-family: "Anson";
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: lighter;
+  /* padding-left: 20vw;
+  padding-right: 20vw; */
+  padding-top: 5vh;
+  
+}
+
 #top-text {
   font-family: Helvetica, sans-serif;
   font-size: 20px;
