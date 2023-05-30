@@ -38,8 +38,9 @@
 }
 
 .home-button-container {
-  padding-top: 13vh;
-  text-align: center; 
+  padding-top: 5vh;
+  text-align: center;
+  padding-bottom: 10vh; 
 }
 
 .topnav-smallcaps {
@@ -85,12 +86,12 @@
   color: #ffffff;
   /* border: none; */
   border-radius: 12px;
-  font-family: 'Anson', sans-serif;
+  font-family:monospace;
   font-weight: bold;
   font-size: 18px;
   border: none;
   cursor: pointer;
-  filter: drop-shadow(2px 2px 3px rgb(214, 214, 214));
+  filter: drop-shadow(1px 1px 1px rgb(214, 214, 214));
   
   
 }
@@ -144,7 +145,7 @@
 }
 
 .home-body {
-  background-color: #e1e0e0;
+  background-color: black;
 }
 
 .blue-div {
@@ -219,11 +220,23 @@
   align-items: center;
   padding-top: 1vh;
   padding-bottom: 1vh;
+  font-family: monospace;
+  font-size: 30px;
+  color: rgb(255, 104, 202);
+  filter: drop-shadow(4px 4px 16px rgb(254, 145, 216));
 }
 
-.top-logo img {
-  width: 7vw;
+.top-logo a {
+  text-align: center;
+  font-family: monospace;
+  font-size: 40px;
+  color: rgb(255, 104, 202);
+  filter: drop-shadow(4px 4px 16px rgb(254, 145, 216));
 }
+#top-logo a:link { text-decoration: none; }
+#top-logo a:visited { text-decoration: none; }
+#top-logo a:hover { text-decoration: underline; }
+#top-logo a:active { text-decoration: none; }
 
 .brk {
   page-break-before: always;
@@ -250,19 +263,25 @@
   justify-content: center;
   text-align: center;
   /* font-weight: lighter; */
-  padding-top: 15vh;
+  padding-top: 10vh;
+  color: #f1f1f1;
 }
 
 #about-text-home {
-  font-family: "Anson";
-  font-size: 40px;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  /* font-family:'Signifier', sans-serif; */
+  font-family: monospace;
+  font-size:18px;
+  max-width: 43vw;
+  margin: 0 auto;
+  /* align-items: center; */
+  /* justify-content: center; */
   font-weight: lighter;
   /* padding-left: 20vw;
   padding-right: 20vw; */
   padding-top: 5vh;
+  color: #f1f1f1;
+  text-align: center;
+  
   
 }
 
@@ -290,6 +309,7 @@
   padding-right: 20vw;
   padding-top: 15vh;
   padding-bottom: 15vh;
+  color: #f1f1f1;
 }
 
 #figma-div {
@@ -301,26 +321,26 @@
 
 #application-topnav {
   text-align: center;
-  font-family: Helvetica, sans-serif;
-  font-weight: lighter;
   padding-bottom: 15vh;
 }
 
 
 #application-topnav a {
   text-align: center;
-  font-family: Helvetica, sans-serif;
-  font-weight: lighter;
-  margin-right: 40px;
-  color: black;
-  filter: drop-shadow(2px 2px 16px rgb(185, 185, 185));
+  font-family: monospace;
+  font-size: 20px;
+  /* font-weight: lighter; */
+  margin-right: 80px;
+  padding-left: 80px;
+  color: rgb(255, 104, 202);
+  filter: drop-shadow(4px 4px 16px rgb(254, 145, 216));
 
 }
 
-#application-topnav a:link { text-decoration: underline; }
+#application-topnav a:link { text-decoration: none; }
 #application-topnav a:visited { text-decoration: none; }
-#application-topnav a:hover { text-decoration: none; }
-#application-topnav a:active { text-decoration: underline; }
+#application-topnav a:hover { text-decoration: underline; }
+#application-topnav a:active { text-decoration: none; }
 
 #video-div {
   text-align: center;
@@ -338,6 +358,18 @@
   color: black;
   
 }
+
+#GDD-link {
+ text-align: center; 
+}
+
+#GDD-link a {
+  text-align: center;
+  color: rgb(255, 104, 202);
+  filter: drop-shadow(4px 4px 16px rgb(254, 145, 216));
+  font-family: monospace;
+  font-size: 80px; 
+ }
 
 @font-face {
   font-family: 'Signifier';
